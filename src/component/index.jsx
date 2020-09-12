@@ -2,8 +2,9 @@ import React, { useState, useEffect } from "react";
 import * as math from "mathjs";
 
 import Result from "./finalResult";
-import Buttons from "./operators";
+import Buttons from "./buttons";
 import Author from "./developer";
+import Calculator from "./calculator";
 import "./calculator.css";
 
 const isOperator = /[*+\-/]/,
@@ -156,10 +157,11 @@ export default () => {
     }
   };
 
+  return <Calculator />;
   return (
     <div id="container" className="container">
       <div className="calculator-container">
-        <Result head={currVal} result={prevVal} />
+        <Result calculation={currVal} result={prevVal} />
         <Buttons
           clear={handleClear}
           numbers={handleNumbers}

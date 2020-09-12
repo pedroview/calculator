@@ -1,4 +1,4 @@
-.container {
+/* .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -192,64 +192,30 @@ button:hover {
   min-height: 28px;
   font-size: 21px;
 }
-
-.author {
-  display: -webkit-box;
-  display: -ms-flexbox;
+ */
+.developer {
+  height: 30px;
+}
+.calculator {
   display: flex;
-  margin-top: 25px;
-  letter-spacing: 1.5px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
   align-items: center;
+  min-width: 300px;
+  /* width: 100%;
+  max-width: 600px; */
+  padding: 10px;
 }
-.author a {
-  text-decoration: none;
-  color: #004466;
+.botton1 {
+  grid-column: span 1;
 }
-@media screen and (max-width: 500px) {
-  * {
-    font-size: 15px;
-  }
-  button {
-    height: 50px;
-  }
-  .calculator-container {
-    width: 230px;
-  }
-  .head {
-    min-height: 19px;
-    font-size: 12px;
-  }
-  .result {
-    min-height: 26px;
-    font-size: 20px;
-  }
+.botton2 {
+  grid-column: span 2;
 }
-
-@media screen and (min-width: 1000px) and (min-height: 1000px) {
-  * {
-    font-size: 29px;
-  }
-  button {
-    height: 100px;
-  }
-  .calculator-container {
-    width: 500px;
-  }
-  .head {
-    min-height: 40px;
-    font-size: 23px;
-  }
-  .result {
-    min-height: 60px;
-    font-size: 50px;
-  }
+.botton3 {
+  grid-column: span 3;
 }

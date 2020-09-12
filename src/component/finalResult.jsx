@@ -1,11 +1,11 @@
 import React from "react";
 
-const Result = props => {
+const Result = ({ calculation, result }) => {
   return (
     <div className="result-container">
-      <div className="head">{props.head}</div>
+      <div className="head">{calculation}</div>
       <div id="display" className="result">
-        {props.result}
+        {result}
       </div>
     </div>
   );

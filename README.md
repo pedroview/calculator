@@ -7,7 +7,7 @@ See [demo](https://afozbek-react-calculator.netlify.com/)
 - Basic `Javascript knowledge` is required
 - ES6 snytax, arrow functions etc.
 - Functional Programming
-- React Hooks
+- basic knowledge of React Hooks and Material-UI
 
 ### Installing
 
