@@ -8,7 +8,10 @@ const Buttons = (props) => {
 
   return (
     <div className="buttons">
-      <Button value="ac" className="botton3" variant="contained" style={clearStyle} onClick={props.clear}>
+      <Button value="ac" className="botton1" variant="contained" style={operatorStyle} onClick={props.clear}>
+        DEL
+      </Button>
+      <Button value="ac" className="botton2" variant="contained" style={clearStyle} onClick={props.clear}>
         CLEAR
       </Button>
       <Button value="divide" className="botton1" variant="contained" style={operatorStyle} onClick={props.operations}>

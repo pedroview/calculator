@@ -1,3 +1,4 @@
 import React from "react";
 
-export default Result = ({ calculation }) => <div className="calculation">{calculation}</div>;
+// display what user is typing here
+export default ({ calculation }) => <div className="calculation">{calculation}</div>;
