@@ -4,16 +4,17 @@
 .calculator {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .calculation {
+  width: calc(100% - 15px);
   display: flex;
   font-size: 1.2em;
   padding-left: 3px;
-  margin: 0 10px;
   min-height: 20px;
 }
 .result {
-  margin: 0 10px;
+  width: calc(100% - 15px);
   font-size: 2em;
   height: 50px;
   display: flex;
@@ -37,4 +38,18 @@
 .botton1 {
   grid-column: span 1;
   height: 45px;
+}
+
+.clearStyle {
+  background: #ac1111;
+  color: white;
+}
+.operatorStyle {
+  background: grey;
+  color: white;
+}
+.equalsStyle {
+  border: 3px solid red;
+  background: #113399;
+  color: white;
 }
