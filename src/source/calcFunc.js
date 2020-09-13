@@ -1,4 +1,5 @@
 const handleClear = ({ value, calculation, setCalculation, setFinalResult }) => {
+  // delete last character from calculation
   if (value === "one") {
     let newCal = calculation;
     if (newCal.length) {
@@ -6,17 +7,20 @@ const handleClear = ({ value, calculation, setCalculation, setFinalResult }) => 
       setCalculation(newCal);
     }
   } else {
+    // delete all values both calculation and result
     setCalculation(0);
     setFinalResult(0);
   }
 };
 
+// get value user typed in, and display in calculation
 const handleValue = ({ value, calculation, setCalculation }) => {
   if (!calculation || calculation.length <= 24) {
     setCalculation(`${calculation === 0 ? value : `${calculation}${value}`}`);
   }
 };
 
+// solve value of calculation
 const resolveCalculation = ({ calculation, setFinalResult }) => {
   setFinalResult(eval(calculation));
 };
