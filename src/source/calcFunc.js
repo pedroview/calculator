@@ -35,7 +35,7 @@ const handleOperator = ({ key, calculation, setFinalResult }) => {
       setFinalResult(Math.cbrt(number));
       break;
     case "rand":
-      setFinalResult(Math.round(Math.random(number) * 10));
+      setFinalResult(Math.round(Math.random() * number));
       break;
     default:
       break;

@@ -1,6 +1,6 @@
 # Simple React Calculator
 
-See [demo](https://afozbek-react-calculator.netlify.com/)
+See [demo](https://pedroview-calculator.netlify.com/)
 
 ### Prerequisites
 
@@ -9,11 +9,32 @@ See [demo](https://afozbek-react-calculator.netlify.com/)
 - Functional Programming
 - basic knowledge of React Hooks and Material-UI
 
-### Installing
+### Installation, Development and Production
 
 To install required packages
-
 **run** `npm install` or **run** `yarn install`
+
+
+Runs the app in the development mode.<br />
+**run** `npm run dev`
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+
+Builds the app for production to the `build` folder.<br />
+**run** `npm run build`
+
+It correctly bundles React in production mode and optimizes the build for the best performance.
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## USE
+- input any number and use operator to make calculations
+- to get sqrt, cubr and rand, input the number then click on any of the button
+
 
 ## Author
 
