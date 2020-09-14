@@ -1,6 +1,6 @@
 # Simple React Calculator
 
-See [demo](https://pedroview-calculator.netlify.com/)
+See [demo](https://pedroview-calculator.netlify.app/)
 
 ### Prerequisites
 
@@ -14,14 +14,12 @@ See [demo](https://pedroview-calculator.netlify.com/)
 To install required packages
 **run** `npm install` or **run** `yarn install`
 
-
 Runs the app in the development mode.<br />
 **run** `npm run dev`
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
-
 
 Builds the app for production to the `build` folder.<br />
 **run** `npm run build`
@@ -32,9 +30,9 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## USE
+
 - input any number and use operator to make calculations
 - to get sqrt, cubr and rand, input the number then click on any of the button
-
 
 ## Author
 
